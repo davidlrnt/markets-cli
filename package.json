@@ -1,0 +1,14 @@
+{
+  "name": "markets-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool for market data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+	  "mkt": "./index.js"
+	},
+  "author": "",
+  "license": "ISC"
+}
