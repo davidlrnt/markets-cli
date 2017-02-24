@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+var httpReq = require('./helpers/http');
+
 var action = process.argv[2];
 var symbol = process.argv[3];
 
@@ -13,3 +15,4 @@ if (action && symbol) {
 			break;
 	}
 }
+
